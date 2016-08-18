@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/victorluna/projetos/estudos/react/pedometer/node_modules/react-native/Libraries/Network/RCTNetworkTask.m \
-  /Users/victorluna/projetos/estudos/react/pedometer/node_modules/react-native/Libraries/Network/RCTNetworkTask.h \
+  /Users/victorluna/projetos/estudos/react/react-native-pedometer-test/node_modules/react-native/Libraries/Network/RCTNetworkTask.m \
+  /Users/victorluna/projetos/estudos/react/react-native-pedometer-test/node_modules/react-native/Libraries/Network/RCTNetworkTask.h \
   ../../React/Base/RCTURLRequestDelegate.h \
   ../../React/Base/RCTURLRequestHandler.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTDefines.h \

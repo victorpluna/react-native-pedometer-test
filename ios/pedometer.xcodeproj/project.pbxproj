@@ -25,6 +25,7 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		38661C821D638E6B00FCAACC /* libRNPedometer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38661C811D638E5700FCAACC /* libRNPedometer.a */; };
+		38661CE41D65F31700FCAACC /* libBMDPedometer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38661CD51D65F31000FCAACC /* libBMDPedometer.a */; };
 		399D25960F644182869DBDB8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EEC3C859402479FA084DFA4 /* Ionicons.ttf */; };
 		4281AFA9D21E459C92934BF0 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC23F41DD94F4993EFCA84 /* libRNVectorIcons.a */; };
 		488C4EAAAB2F4FE891B76C8C /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FC6E8B072BA4C5A918CB9E3 /* Foundation.ttf */; };
@@ -136,6 +137,27 @@
 			remoteGlobalIDString = 844442D81CB01D4A00E10B29;
 			remoteInfo = RNPedometer;
 		};
+		38661CB91D64FEAF00FCAACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38661CA01D64FEAF00FCAACC /* reactNativePedometer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13B07F961A680F5B00A75B9A;
+			remoteInfo = reactNativePedometer;
+		};
+		38661CBB1D64FEAF00FCAACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38661CA01D64FEAF00FCAACC /* reactNativePedometer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00E356EE1AD99517003FC87E;
+			remoteInfo = reactNativePedometerTests;
+		};
+		38661CD41D65F31000FCAACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38661CD01D65F31000FCAACC /* BMDPedometer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2F5E5A8A1D64B7D400DD70AB;
+			remoteInfo = BMDPedometer;
+		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
@@ -178,6 +200,8 @@
 		2E55B57EBEE6423EBECEEB4D /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNDeviceInfo.a; sourceTree = "<group>"; };
 		32311B61092241A18D6352DB /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		38661C7C1D638E5600FCAACC /* RNPedometer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNPedometer.xcodeproj; path = "../node_modules/react-native-pedometer/RNPedometer.xcodeproj"; sourceTree = "<group>"; };
+		38661CA01D64FEAF00FCAACC /* reactNativePedometer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = reactNativePedometer.xcodeproj; path = "../node_modules/react-native-stepcounter/ios/reactNativePedometer.xcodeproj"; sourceTree = "<group>"; };
+		38661CD01D65F31000FCAACC /* BMDPedometer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BMDPedometer.xcodeproj; path = "../node_modules/react-native-universal-pedometer/ios/BMDPedometer.xcodeproj"; sourceTree = "<group>"; };
 		4C9E4AEC8F9B43B4A0DC1D80 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		5FC6E8B072BA4C5A918CB9E3 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -204,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38661CE41D65F31700FCAACC /* libBMDPedometer.a in Frameworks */,
 				38661C821D638E6B00FCAACC /* libRNPedometer.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -352,6 +377,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		38661CA11D64FEAF00FCAACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38661CBA1D64FEAF00FCAACC /* reactNativePedometer.app */,
+				38661CBC1D64FEAF00FCAACC /* reactNativePedometerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38661CD11D65F31000FCAACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38661CD51D65F31000FCAACC /* libBMDPedometer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		71DC721CB8A44BE2AC6454E0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +420,8 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				38661CD01D65F31000FCAACC /* BMDPedometer.xcodeproj */,
+				38661CA01D64FEAF00FCAACC /* reactNativePedometer.xcodeproj */,
 				38661C7C1D638E5600FCAACC /* RNPedometer.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -493,6 +537,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 38661CD11D65F31000FCAACC /* Products */;
+					ProjectRef = 38661CD01D65F31000FCAACC /* BMDPedometer.xcodeproj */;
+				},
+				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
 				},
@@ -531,6 +579,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 38661CA11D64FEAF00FCAACC /* Products */;
+					ProjectRef = 38661CA01D64FEAF00FCAACC /* reactNativePedometer.xcodeproj */;
 				},
 				{
 					ProductGroup = 38661C621D638D5200FCAACC /* Products */;
@@ -647,6 +699,27 @@
 			fileType = archive.ar;
 			path = libRNPedometer.a;
 			remoteRef = 38661C801D638E5700FCAACC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		38661CBA1D64FEAF00FCAACC /* reactNativePedometer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = reactNativePedometer.app;
+			remoteRef = 38661CB91D64FEAF00FCAACC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		38661CBC1D64FEAF00FCAACC /* reactNativePedometerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = reactNativePedometerTests.xctest;
+			remoteRef = 38661CBB1D64FEAF00FCAACC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		38661CD51D65F31000FCAACC /* libBMDPedometer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBMDPedometer.a;
+			remoteRef = 38661CD41D65F31000FCAACC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {

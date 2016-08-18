@@ -3,6 +3,7 @@ import { ScrollView, Text, Image, View } from 'react-native'
 import { Images } from '../Themes'
 import { connect } from 'react-redux'
 import RoundedButton from '../Components/RoundedButton'
+import StepsInfo from '../Components/StepsInfo'
 import { Actions as NavigationActions } from 'react-native-router-flux'
 
 // Styles
@@ -34,6 +35,8 @@ class PresentationScreen extends React.Component {
             </Text>
           </View>
 
+          <StepsInfo />
+          
           <RoundedButton onPress={this.props.componentExamples}>
             Component Examples Screen
           </RoundedButton>

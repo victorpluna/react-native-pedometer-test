@@ -8,6 +8,7 @@ import configureStore from './App/Store/Store'
 const store = configureStore()
 class RNBase extends React.Component {
   render () {
+
     return <Root {...this.props} store={store} />
   }
 }

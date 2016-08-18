@@ -1,5 +1,3 @@
 dependencies: \
-  /Users/victorluna/projetos/estudos/react/pedometer/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.m \
-  /Users/victorluna/projetos/estudos/react/pedometer/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h \
-  ../../React/Base/RCTAssert.h ../../React/Base/RCTDefines.h \
-  ../../React/Base/RCTLog.h
+  /Users/victorluna/projetos/estudos/react/react-native-pedometer-test/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.m \
+  /Users/victorluna/projetos/estudos/react/react-native-pedometer-test/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h
